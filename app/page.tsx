@@ -132,7 +132,7 @@ export default function Page() {
             onRecordMovement={() => document.getElementById('stock-form')?.scrollIntoView({ behavior: 'smooth' })}
           />
 
-          {page === 'Dashboard' && (
+          {page === 'Overview' && (
             <OverviewPage
               data={data}
               low={low}
